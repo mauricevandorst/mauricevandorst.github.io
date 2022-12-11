@@ -41,11 +41,6 @@ window.hidePopupOnBodyClick = 1;
 
 var $html = $('html');
 
-//On hash change
-$(window).on('hashchange', function (e) {
-    history.replaceState("", document.title, e.originalEvent.oldURL);
-});
-
 //On Window load
 $(window).on('load', function(){
   window.loaded = 1;
