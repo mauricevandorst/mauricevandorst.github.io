@@ -1,15 +1,15 @@
 <?php
 
 /* SETTINGS */
-$recipient = "your.email@gmail.com";
-$subject = "New Message from Contact Form";
+$recipient = "info@mauricevandorst.com";
+$subject = "Nieuw contactverzoek via MvD Services B.V.";
 
 if($_POST){
 
   /* DATA FROM HTML FORM */
-  $name = $_POST['name'];
+  $name = "Onbekend";
   $email = $_POST['email'];
-  $message = $_POST['message'];
+  $message = "Er is een nieuw contactverzoek binnengekomen. Het e-mailadres is $email.";
 //$phone = $_POST['phone'];
 
 
